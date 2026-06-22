@@ -9,7 +9,7 @@ st.set_page_config(page_title="팀 예산 관리 시스템", page_icon="📊", l
 
 # --- 구글 시트 연결 (Apps Script Web App URL) ---
 # .streamlit/secrets.toml 파일에 설정된 웹 앱 URL을 가져옵니다.
-WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzzFcZL5L0qr67eUC2nrKFiuh7ZQpVGGpnZ7I_L_rHhXLPgzjXMF3aKvskKIf3yj5c/exec"
+WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxWuJgka6qouZopLP7qs7aEo7M5KeWjCWst1F1x0Rqxvi-wUc5qr_NJD8-G42uGp6o/exec"
 
 # --- 데이터 로드 함수 ---
 @st.cache_data(ttl=5) # 5초 동안 캐시 유지
